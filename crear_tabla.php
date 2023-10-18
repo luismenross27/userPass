@@ -1,11 +1,11 @@
 <?php
 // Datos de conexión a la base de datos PostgreSQL
-$driver = 'pgsql';
-$host = getenv('host');
-$port = getenv('port');
-$dbname = getenv('dbname');
-$user =   getenv('user');
-$password = getenv('password');
+    $driver = 'pgsql';
+    $host = getenv('app-855f4bb3-e2d9-4444-8e48-24249f7634ca-do-user-14712981-0.c.db.ondigitalocean.com');
+    $port = getenv('25060');
+    $dbname = getenv('db');
+    $user =   getenv('db');
+    $password = getenv('AVNS_238vNBoPAQLKbt7F2CY');
 
 try {
     // Conexión a la base de datos
